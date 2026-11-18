@@ -1,0 +1,27 @@
+# Environment secrets — never commit
+.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
+private/
+*.db
+*.db-*
+*.sqlite*
+*.jsonl
+*.pem
+*.key
+*.zip
+coverage/
+automation-data/
+__pycache__/
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+npm-debug.log*
