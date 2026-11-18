@@ -1,4 +1,4 @@
-# Job Tracker
+# Tabless
 
 A self-hosted, single-owner job application tracker with list and kanban views,
 contacts, action items, compensation fields, and optional AI relevance scoring.
@@ -114,8 +114,8 @@ ever exposed. Email matching uses keyword rules, so review changes periodically.
 Run both daily with cron (`crontab -e`), adjusting the path:
 
 ```cron
-0 9  * * * cd /path/to/job-tracker && python3 automation/gmail_sync.py >> automation-data/cron.log 2>&1
-0 10 * * * cd /path/to/job-tracker && python3 automation/url_check.py  >> automation-data/cron.log 2>&1
+0 9  * * * cd /path/to/tabless && python3 automation/gmail_sync.py >> automation-data/cron.log 2>&1
+0 10 * * * cd /path/to/tabless && python3 automation/url_check.py  >> automation-data/cron.log 2>&1
 ```
 
 Set `NOTIFY_WEBHOOK_URL` to a Slack, Discord or similar incoming webhook to get

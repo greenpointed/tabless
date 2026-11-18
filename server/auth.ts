@@ -35,7 +35,7 @@ export function ownerAuth(username: string | undefined, password: string | undef
         return;
       }
     }
-    res.setHeader("WWW-Authenticate", 'Basic realm="Job Tracker", charset="UTF-8"');
+    res.setHeader("WWW-Authenticate", 'Basic realm="Tabless", charset="UTF-8"');
     res.status(401).json({ error: "Authentication required" });
   };
 }

@@ -52,7 +52,7 @@ test("built app refuses missing config; empty mock database is isolated behind a
     assert.equal(calls, 1);
     const page = await fetch(base, { headers });
     assert.equal(page.status, 200);
-    assert.match(await page.text(), /<title>Job Tracker<\/title>/);
+    assert.match(await page.text(), /<title>Tabless<\/title>/);
   } finally {
     const exited = new Promise(resolve => app.once("exit", resolve));
     app.kill("SIGTERM");

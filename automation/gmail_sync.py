@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gmail -> Job Tracker sync (optional).
+"""Gmail -> Tabless sync (optional).
 
 Connects to YOUR Gmail account over IMAP (read-only) and:
 
@@ -552,7 +552,7 @@ def main(argv=None) -> int:
     for err in result["errors"]:
         print(f"  error: {err}", file=sys.stderr)
     if lines and not args.dry_run:
-        notify(f"Job Tracker: {len(lines)} update(s) from Gmail", "\n".join(lines))
+        notify(f"Tabless: {len(lines)} update(s) from Gmail", "\n".join(lines))
     return 1 if result["errors"] else 0
 
 

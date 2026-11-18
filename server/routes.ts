@@ -688,7 +688,7 @@ Respond with ONLY valid JSON (no markdown, no explanation outside the JSON):
     try {
       const query = encodeURIComponent(`${company} ${role ?? ""} return to office policy RTO days per week 2024 2025`);
       const response = await fetch(`https://html.duckduckgo.com/html/?q=${query}`, {
-        headers: { "User-Agent": "Mozilla/5.0 (compatible; job-tracker/1.0)", Accept: "text/html" },
+        headers: { "User-Agent": "Mozilla/5.0 (compatible; tabless/1.0)", Accept: "text/html" },
       });
       const html = await response.text();
       const snippets: string[] = [];
