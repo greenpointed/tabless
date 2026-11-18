@@ -252,7 +252,7 @@ def main(argv=None) -> int:
     if newly:
         body = "\n".join(f"- {j.get('company')} - {j.get('role')}: {c['issue']}\n  {j['url']}"
                           for j, c in results if j["id"] in newly)
-        notify(f"Tabless: {len(newly)} posting(s) newly unavailable", body)
+        notify(f"TabLess: {len(newly)} posting(s) newly unavailable", body)
     return 0
 
 

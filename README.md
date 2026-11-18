@@ -1,4 +1,4 @@
-# Tabless
+# TabLess
 
 A self-hosted, single-owner job application tracker with list and kanban views,
 contacts, action items, compensation fields, and optional AI relevance scoring.

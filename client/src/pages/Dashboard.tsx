@@ -557,14 +557,14 @@ export default function Dashboard() {
       <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
         <div className="max-w-[1600px] mx-auto px-4 h-14 flex items-center justify-between gap-4">
           <div className="flex items-center gap-2.5 flex-shrink-0">
-            <svg aria-label="Tabless" viewBox="0 0 32 32" fill="none" className="w-7 h-7" xmlns="http://www.w3.org/2000/svg">
+            <svg aria-label="TabLess" viewBox="0 0 32 32" fill="none" className="w-7 h-7" xmlns="http://www.w3.org/2000/svg">
               <rect x="4" y="10" width="24" height="18" rx="2.5" className="fill-primary" />
               <rect x="11" y="4" width="10" height="8" rx="1.5" className="fill-primary/40" />
               <rect x="13" y="6" width="6" height="4" rx="1" fill="white" fillOpacity="0.8" />
               <rect x="8" y="17" width="16" height="1.5" rx="0.75" fill="white" fillOpacity="0.7" />
               <rect x="8" y="21" width="11" height="1.5" rx="0.75" fill="white" fillOpacity="0.5" />
             </svg>
-            <span className="font-semibold text-sm">Tabless</span>
+            <span className="font-semibold text-sm">TabLess</span>
           </div>
 
           <div className="relative flex-1 max-w-sm hidden sm:block">
