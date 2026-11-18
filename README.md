@@ -131,3 +131,7 @@ Never commit `.env`, `private/`, `automation-data/`, databases, logs, builds, or
 This repository contains no job records, résumé, email content or reports from
 any existing installation, and no demo/seed data. Nothing in it is connected to
 anyone else's database, Gmail or notification channel.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
